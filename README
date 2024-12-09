@@ -1,0 +1,10 @@
+As running the code isn't entirely intuitive.
+
+1. Split terminal in VSCO
+2. In 1 terminal:
+    a. cd cmsc_447_group_project
+    b. npm start
+3. In other terminal:
+    a. cd cmsc_447_group_project
+    b. cd Backend
+    c. npm start

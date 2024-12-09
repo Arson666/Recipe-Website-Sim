@@ -1,0 +1,43 @@
+.update-user-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-user-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .update-user-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-user-container label {
+    margin-bottom: 10px;
+  }
+  
+  .update-user-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-user-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-user-container button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,54 @@
+/* Container for the entire results page */
+.results-container {
+    max-width: 800px; /* Limiting the maximum width */
+    margin: 20px auto; /* Centering the container */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Styling for the header */
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;  /* Centering the header */
+}
+
+/* Unordered list styling */
+ul {
+    list-style: none; /* Removing default list styling */
+    padding: 0;
+}
+
+/* List item styling */
+li {
+    background-color: #fff; /* White background for each item */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px 20px; /* Padding inside each list item */
+    margin-top: 10px; /* Space between items */
+    border-radius: 4px; /* Rounded corners for list items */
+    font-size: 16px; /* Readable font size */
+    color: #555; /* Slightly darker text color for readability */
+}
+
+li:first-child {
+    margin-top: 0; /* Removing top margin for the first item */
+}
+
+/* Enhancing the display of the recipe name */
+h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;  /* Making the name bold */
+}
+
+/* Description styling for subtlety */
+p {
+    margin: 0;
+    font-size: 14px; /* Smaller font size for description */
+    color: #666; /* Even softer color for descriptions */
+}
+

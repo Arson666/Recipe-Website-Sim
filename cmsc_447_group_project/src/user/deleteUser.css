@@ -1,0 +1,43 @@
+.delete-user-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .delete-user-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .delete-user-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delete-user-container label {
+    margin-bottom: 10px;
+  }
+  
+  .delete-user-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delete-user-container button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-user-container button:hover {
+    background-color: #c82333;
+  }
+  
